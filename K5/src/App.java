@@ -15,6 +15,7 @@ public class App extends JFrame {
         this.product2 = product2;
         this.product3 = product3;
         initComponents();
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
     private void productListMouseClicked(MouseEvent e) {
